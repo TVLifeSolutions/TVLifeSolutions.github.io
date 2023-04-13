@@ -1,1 +1,1 @@
-https://TVLifeSolutions.github.io/index
+https://TVLifeSolutions.github.io/index.html
