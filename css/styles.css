@@ -19,7 +19,8 @@ body {
 }
 
 .intro {
-  height: 100vh;
+  height: 95vh;
+  height: 200vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -94,4 +95,13 @@ body {
   /* display: none; */
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
+}
+
+.container header .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.card-body .itemDescription {
+  color: #300340;
 }
