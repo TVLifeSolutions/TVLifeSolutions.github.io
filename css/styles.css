@@ -8,8 +8,10 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #300340;
-  color: #fff;
+  /* background-color: #300340;
+  color: #fff; */
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .title {
@@ -105,3 +107,10 @@ body {
 .card-body .itemDescription {
   color: #300340;
 }
+/* .container footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15pt;
+  font-weight: bold;
+  background-color: #61466b;
+  color: #fff;
+} */
