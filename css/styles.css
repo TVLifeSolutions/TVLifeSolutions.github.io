@@ -107,10 +107,10 @@ body {
 .card-body .itemDescription {
   color: #300340;
 }
-/* .container footer {
+.container footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 15pt;
   font-weight: bold;
-  background-color: #61466b;
+  /* background-color: #61466b; */
   color: #fff;
-} */
+}
