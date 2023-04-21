@@ -107,10 +107,16 @@ body {
 .card-body .itemDescription {
   color: #300340;
 }
+
 .container footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 15pt;
   font-weight: bold;
   /* background-color: #61466b; */
   color: #fff;
+}
+
+iframe {
+  width: auto;
+  height: auto;
 }
