@@ -19,34 +19,66 @@
     <!-- CSS Site custom -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- JS Site custom -->
-    <script src="./lib/module.js"></script>
+    <script src="./js/module.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <header
-            class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm rounded">
-            <div class="logo">
-                <img src="./img/IMG_1.png" class="img-thumbnail">
-            </div>
-            <p class="h5 my-0 me-md-auto fw-normal title p-2"><strong>TV LIFT SOLUTIONS</strong></p>
-            <nav class="my-2 my-md-0 me-md-3">
-                <a class="p-2 btn btn-outline-primary" href="./index.html">Trang chủ</a>
-                <a class="p-2 btn btn-outline-primary" href="./noithat.html">Nội thất</a>
-                <a class="p-2 btn btn-outline-primary" href="./uat.html">Thời trang</a>
-                <a class="p-2 btn btn-outline-primary" href="./csoc.html">Ẩm Thực</a>
-                <!-- <a class="p-2 btn btn-outline-primary" href="./flutter.html">MobiMap Flutter</a> -->
-            </nav>
-        </header>
+        <div w3-include-html="header.html"></div>
         <div class="content">
+            <div class="row p-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="./img/IMG_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/IMG_2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/IMG_3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row rounded">
+                <div class="col-4">
+                    <div class="card w-100">
+                        <img src="./img/product/denngu.JPG" class="img-thumbnail card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text itemDescription">Nội thất : Đèn ngủ để bàn, số lượng lớn 800 cái, sĩ vả
+                                lẻ khách cần liên hệ <br> <strong>Giá : Liên hệ</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
             <div class="row rounded">
                 <div class="col-4">
                     <div class="card w-100">
                         <img src="./img/product/p1.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text itemDescription">Nội thất : Kệ sáchsácc, kệ hồ sơ cao thích hợp cho văp
+                            <p class="card-text itemDescription">Nội thất : Kệ sách, kệ hồ sơ cao thích hợp cho văp
                                 phòng làm việc <br> <strong>Giá : Liên hệ</strong></p>
-                                
+
                         </div>
                     </div>
                 </div>
@@ -76,7 +108,8 @@
                         <img src="./img/product/p4.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text itemDescription">Kệ để tivi , nhỏ gọn, tiết kiệm không gian phòng khách
-                            <br> <strong>Giá : Liên hệ</strong></p>
+                                <br> <strong>Giá : Liên hệ</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +125,9 @@
                     <div class="card w-100">
                         <img src="./img/product/p6.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br> <strong>Giá : Liên hệ</strong></p>
+                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br>
+                                <strong>Giá : Liên hệ</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +139,8 @@
                         <img src="./img/product/p7.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text itemDescription">Bàn vuông gia đình, thích hợp ngồi uống trà , cà phê
-                            <br> <strong>Giá : Liên hệ</strong></p>
+                                <br> <strong>Giá : Liên hệ</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +168,9 @@
                     <div class="card w-100">
                         <img src="./img/product/p10.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br> <strong>Giá : Liên hệ</strong></p>
+                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br>
+                                <strong>Giá : Liên hệ</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -149,41 +187,19 @@
                     <div class="card w-100">
                         <img src="./img/product/p12.JPG" class="img-thumbnail card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br> <strong>Giá : Liên hệ</strong></p>
+                            <p class="card-text itemDescription">Bàn tròn gia đình, thích hợp ngồi uống trà , cà phê<br>
+                                <strong>Giá : Liên hệ</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="pt-4 my-md-5 border-top bg-primary rounded p-3 ">
-            <div class="row">
-                <div class="col-12 col-md-12">
-                    <strong><h5>Thông tin liên hệ</h5></strong>
-                    <ul class="list-unstyled text-small">
-                        <li>
-                            <div class="badge bg-primary text-wrap">
-                                <!-- <a class="link-secondary" href="#"> -->
-                                TV LIFE SOLUTIONS COMPANY LIMITED (TV LIFE SOLUTIONS CO.,LTD)
-                                <!-- </a> -->
-                            </div>
-                        </li>
-                        <li><strong>MST : 0317779642 </strong></li>
-                        <li><strong>Địa Chỉ : 1902/5/7 Lê Văn Lương, Ấp 4, Xã Nhơn Đức, Huyện Nhà Bè, Thành phố Hồ Chí
-                                Minh, Việt Nam </strong></li>
-                                <li><strong>Điện Thoại : 0343 787 487</strong></li>
-                        <li><strong>Email : tv.life.solutions@gmail.com </strong></li>
-                        <li><strong>Địa Chỉ kho : 1041/62/209a Trần Xuân Soạn , Q7, Thành phố Hồ Chí Minh, Việt Nam </strong></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md ">
-                    <div class="badge bg-primary text-wrap">
-                        <strong>Copyright &copy; 2023 by TV LIFE SOLUTIONS !</strong>
-                    </div>
-                    <!-- <small class="d-block mb-3 text-muted"> Copyright &copy; 2014 by RAD!</small> -->
-                </div>
-            </div>
-        </footer>
+        <div w3-include-html="footer.html"></div>
     </div>
 </body>
+<script>
+    includeHTML();
+</script>
 
 </html>
